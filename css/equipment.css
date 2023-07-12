@@ -1,0 +1,14 @@
+.equipment-list dl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.equipment-list p{
+    text-align: center;
+}
+
+.equipment-list p img{
+    max-width: 45%;
+}
