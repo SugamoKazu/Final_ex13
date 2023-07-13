@@ -63,12 +63,17 @@ img{
     font-family: 'Cherry Bomb One', cursive;
 }
 
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .first-view{
     height: calc(100vh – 110px);
-    background: url(../images/index/bg-main.jpg);
+    background: url(../images/sea.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     align-items: center;
 }
@@ -79,10 +84,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    padding-right: 40px;
     color: #656fe1;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;
+    text-shadow: 2px 2px 5px #dbdcd4;
 }
 
 .first-view-text h1 {
@@ -94,6 +100,19 @@ img{
 .first-view-text p {
     font-size: 18px;
     margin-top: 20px;
+}
+
+.second-view{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    color: #59f683;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c94;
 }
 
 .lead {
@@ -117,7 +136,7 @@ img{
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #f5f5ff;
         height: 50px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -139,8 +158,8 @@ img{
         top: 100%;
         left: 0;
         right: 0;
-        color: #ffffff;
-        background-color: #736e62;
+        color: #000000;
+        background-color: #dfdfff;
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
@@ -178,7 +197,7 @@ img{
 
 .footer{
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #3d4067;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
