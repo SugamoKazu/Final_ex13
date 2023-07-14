@@ -63,9 +63,12 @@ img{
     font-family: 'Cherry Bomb One', cursive;
 }
 
-h2{
+.title{
+    position: relative;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
 .first-view{
