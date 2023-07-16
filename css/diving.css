@@ -1,7 +1,13 @@
+.title{
+    background-image: url(../images/diving/bg_diving.png);
+}
+
 .diving-list{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: center;
 }
 
 .diving-list img{
