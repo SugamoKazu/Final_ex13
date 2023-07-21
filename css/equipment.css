@@ -1,5 +1,10 @@
+.main{
+    background-image: none;
+}
+
 .title{
     background-image: url(../images/equipments/bg_equipments.png);
+    background-size: cover;
 }
 
 .equipment-list dl{

@@ -65,8 +65,8 @@ img{
     text-shadow: 1px 1px 10px #4b2c14;
     position: relative;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: none;
+    margin-bottom: 50px;
 }
 
 .site-menu ul{
@@ -81,12 +81,15 @@ img{
     font-family: 'Cherry Bomb One', cursive;
 }
 
-.first-view{
-    height: calc(100vh – 110px);
-    background: url(../images/sea.png);
+.main{
+    background-image: url(../images/sea.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: cover;
+}
+
+.first-view{
+    height: calc(100vh – 110px);
     display: flex;
     align-items: center;
 }
