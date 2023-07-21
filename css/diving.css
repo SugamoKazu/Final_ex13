@@ -1,5 +1,10 @@
+.main{
+    background-image: none;
+}
+
 .title{
     background-image: url(../images/diving/bg_diving.png);
+    background-size: cover;
 }
 
 .diving-list{

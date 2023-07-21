@@ -1,5 +1,10 @@
+.main{
+    background-image: none;
+}
+
 .title{
     background-image: url(../images/caution/bg_caution.png);
+    background-size: cover;
 }
 
 .caution-list{
