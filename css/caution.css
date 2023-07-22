@@ -1,0 +1,23 @@
+.main{
+    background-image: none;
+}
+
+.title{
+    background-image: url(../images/caution/bg_caution.png);
+    background-size: cover;
+}
+
+.caution-list{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caution-list li{
+    text-align: center;
+}
+
+.caution-list li dl img{
+    max-width: 45%;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}

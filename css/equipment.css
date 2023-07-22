@@ -1,0 +1,25 @@
+.main{
+    background-image: none;
+}
+
+.title{
+    background-image: url(../images/equipments/bg_equipments.png);
+    background-size: cover;
+}
+
+.equipment-list dl{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equipment-list li{
+    text-align: center;
+}
+
+.equipment-list p img{
+    max-width: 45%;
+    padding-bottom: 10px;
+}
+
